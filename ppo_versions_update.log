@@ -1,0 +1,1944 @@
+2026-03-12 10:35:46 | INFO | ============================================================
+2026-03-12 10:35:46 | INFO | Начало синхронизации версий прикладного ПО: 2026-03-12 10:35:46
+2026-03-12 10:35:46 | INFO | ============================================================
+2026-03-12 10:35:46 | INFO | Загружено 705 строк из таблицы 'Версии ППО'
+2026-03-12 10:35:46 | INFO | Сбор данных о версиях ПО...
+2026-03-12 10:35:51 | INFO | Получено 701 уникальных записей
+2026-03-12 10:35:51 | INFO | Найдено 705 существующих записей в таблице
+2026-03-12 10:35:51 | INFO | 
+Найдено 25 записей для обновления:
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: isp-config-service
+2026-03-12 10:35:51 | INFO |     Версия: 3.8.1 -> 3.9.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: isp-gate-service
+2026-03-12 10:35:51 | INFO |     Версия: 5.7.0 -> 5.9.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: isp-system-service
+2026-03-12 10:35:51 | INFO |     Версия: 5.6.0 -> 5.7.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-converter
+2026-03-12 10:35:51 | INFO |     Версия: 4.9.0 -> 4.10.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-ern-service
+2026-03-12 10:35:51 | INFO |     Версия: 2.10.0 -> 2.11.2
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-mesh-notification-service
+2026-03-12 10:35:51 | INFO |     Версия: 1.1.0 -> 1.2.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-pdprr-notification-service
+2026-03-12 10:35:51 | INFO |     Версия: 1.2.1 -> 1.3.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-sign-service
+2026-03-12 10:35:51 | INFO |     Версия: 1.2.0 -> 1.2.2
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-validation-service
+2026-03-12 10:35:51 | INFO |     Версия: 1.10.0 -> 1.11.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-verify
+2026-03-12 10:35:51 | INFO |     Версия: 1.12.0 -> 1.13.0
+2026-03-12 10:35:51 | INFO |   ... и еще 15 записей
+2026-03-12 10:35:51 | INFO | 
+Найдено 2 новых записей для создания:
+2026-03-12 10:35:51 | INFO |   Хост: mdm01-kri-main-app01t, Контур: test, Подсистема: kri, ПО: isp-router-service, Версия: 1.0.0
+2026-03-12 10:35:51 | INFO |   Хост: mdm30-tp-gw-pdp01s, Контур: stage, Подсистема: tech_portal, ПО: mdmtp-gateway-emp, Версия: 2025/08/06=001
+2026-03-12 10:35:55 | INFO | 
+Начинается обновление существующих записей...
+2026-03-12 10:36:00 | INFO | Обновлено 25 записей.
+2026-03-12 10:36:00 | INFO | 
+Начинается создание новых записей...
+2026-03-12 10:36:00 | INFO | Создано 2 новых записей.
+2026-03-12 10:36:00 | INFO | 
+Синхронизация завершена. Всего обработано: 27 записей.
+2026-03-12 10:36:00 | INFO |   - Обновлено: 25
+2026-03-12 10:36:00 | INFO |   - Создано: 2
+2026-03-31 18:28:04 | INFO | ============================================================
+2026-03-31 18:28:04 | INFO | Начало синхронизации: 2026-03-31 18:28:04
+2026-03-31 18:28:04 | INFO | ============================================================
+2026-03-31 18:28:09 | INFO | Найдено данных для 482 хостов.
+2026-03-31 18:28:09 | INFO | Нет изменений для обновления.
+2026-03-31 18:28:09 | INFO | ============================================================
+2026-03-31 18:28:09 | INFO | Начало расчета ёмкости сетей: 2026-03-31 18:28:09
+2026-03-31 18:28:09 | INFO | ============================================================
+2026-03-31 18:28:09 | INFO | Получено 577 строк из таблицы.
+2026-03-31 18:28:09 | INFO | Найдено 23 подсетей.
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=10, cluster_IP=5, свободно=45
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-03-31 18:28:09 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-03-31 18:28:09 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-03-31 18:28:09 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-03-31 18:28:09 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-03-31 18:28:09 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-03-31 18:28:09 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 18:28:09 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-03-31 18:28:09 | INFO | 
+Планируется обновление 577 строк.
+2026-03-31 18:28:09 | INFO | Начинается обновление...
+2026-03-31 18:30:01 | INFO | 
+Всего обновлено: 577 строк.
+2026-03-31 18:30:01 | INFO | ============================================================
+2026-03-31 18:30:01 | INFO | Завершено: 2026-03-31 18:30:01
+2026-03-31 18:30:01 | INFO | ============================================================
+2026-03-31 18:30:01 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-03-31 18:30:05 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-03-31 18:30:05 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 10.95, LA5/Ядра: 0.91
+2026-03-31 18:30:05 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 52.72, LA5/Ядра: 2.03
+2026-03-31 18:30:05 | INFO | Загрузка в SeaTable...
+2026-03-31 18:30:05 | INFO | Удаление 2 существующих строк...
+2026-03-31 18:30:05 | INFO | Добавление 2 серверов...
+2026-03-31 18:30:05 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 10.95
+2026-03-31 18:30:05 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 52.72
+2026-03-31 18:30:05 | INFO | Успешно загружено 2 серверов.
+2026-03-31 18:30:05 | INFO | Сбор данных по заполненности дисков...
+2026-03-31 18:30:07 | INFO | Найдено дисков с высокой заполненностью: 25
+2026-03-31 18:30:07 | INFO | Загрузка в SeaTable...
+2026-03-31 18:30:07 | INFO | Удаление 25 существующих строк...
+2026-03-31 18:30:08 | INFO | Все старые строки удалены.
+2026-03-31 18:30:08 | INFO | Добавление 25 новых строк...
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 88%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-03-31 18:30:08 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 90%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 82%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 84%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:30:09 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 80%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:30:10 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 93%
+2026-03-31 18:30:10 | INFO | 
+Загружено 25 строк.
+2026-03-31 18:30:10 | INFO | ============================================================
+2026-03-31 18:30:10 | INFO | Начало синхронизации версий ПО: 2026-03-31 18:30:10
+2026-03-31 18:30:10 | INFO | ============================================================
+2026-03-31 18:30:10 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 18:30:17 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 18:30:17 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 18:30:17 | INFO |   Apache_ignite: 6 записей
+2026-03-31 18:30:17 | INFO |   Clickhouse: 5 записей
+2026-03-31 18:30:17 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 18:30:17 | INFO |   Consul: 61 записей
+2026-03-31 18:30:17 | INFO |   Docker: 152 записей
+2026-03-31 18:30:17 | INFO |   ETCD: 21 записей
+2026-03-31 18:30:17 | INFO |   Elasticsearch: 29 записей
+2026-03-31 18:30:17 | INFO |   Jenkins: 4 записей
+2026-03-31 18:30:17 | INFO |   Kafka: 7 записей
+2026-03-31 18:30:17 | INFO |   Keepalived: 66 записей
+2026-03-31 18:30:17 | INFO |   Kibana: 4 записей
+2026-03-31 18:30:17 | INFO |   Logstash: 6 записей
+2026-03-31 18:30:17 | INFO |   Mongodb: 3 записей
+2026-03-31 18:30:17 | INFO |   Nginx: 37 записей
+2026-03-31 18:30:17 | INFO |   Nifi: 36 записей
+2026-03-31 18:30:17 | INFO |   Opensearch: 35 записей
+2026-03-31 18:30:17 | INFO |   PostgreSQL: 41 записей
+2026-03-31 18:30:17 | INFO |   RabbitMQ: 26 записей
+2026-03-31 18:30:17 | INFO |   Redis: 12 записей
+2026-03-31 18:30:17 | INFO |   Tomcat: 22 записей
+2026-03-31 18:30:17 | INFO |   Zk: 31 записей
+2026-03-31 18:30:17 | INFO |   vmagent: 14 записей
+2026-03-31 18:30:17 | INFO | Найдено 735 существующих записей в таблице
+2026-03-31 18:30:17 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 18:30:17 | INFO | ============================================================
+2026-03-31 18:30:17 | INFO | Начало синхронизации версий ПО: 2026-03-31 18:30:17
+2026-03-31 18:30:17 | INFO | ============================================================
+2026-03-31 18:30:17 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-03-31 18:30:17 | INFO | Сбор данных из 9 источников
+2026-03-31 18:30:24 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-03-31 18:30:24 | INFO | Всего уникальных записей ПО: 1747
+2026-03-31 18:30:24 | INFO |   cadvisor_version_info: 47 записей
+2026-03-31 18:30:24 | INFO |   consulmdm_version: 459 записей
+2026-03-31 18:30:24 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-03-31 18:30:24 | INFO |   filebeat_version: 291 записей
+2026-03-31 18:30:24 | INFO |   node_exporter_build_info: 482 записей
+2026-03-31 18:30:24 | INFO |   ntp_build_info: 289 записей
+2026-03-31 18:30:24 | INFO |   postgres_exporter_build_info: 47 записей
+2026-03-31 18:30:24 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-03-31 18:30:24 | INFO |   redis_exporter_build_info: 12 записей
+2026-03-31 18:30:24 | INFO |   vm_app_version: 14 записей
+2026-03-31 18:30:24 | INFO | Найдено 1000 существующих записей в таблице
+2026-03-31 18:30:24 | INFO | 
+Найдено 796 новых записей для создания:
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:30:24 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:30:24 | INFO |   ... и еще 786 записей
+2026-03-31 18:30:24 | INFO | 
+Начинается создание новых записей...
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-tp-web-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-tp-gw-pdp001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-tp-web-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-log001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-kad-merge-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:19 | ERROR | Ошибка при создании записи для хоста mdm30-kad-merge-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-kad-merge-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-lb001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-lb002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os007p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:20 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-bkp001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-awx001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-jenk001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-auto-app01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-lb002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-lb001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:21 | ERROR | Ошибка при создании записи для хоста mdm30-kpd-kkd-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-kpd-kkd-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-kpd-kkd-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-tp-in-lb001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-common-out-mq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-common-out-mq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-common-out-mq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-os005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:22 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud5-pg01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os007p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os008p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os009p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:23 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os010p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-mongo001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-common-int-rmq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:24 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-common-int-rmq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:25 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud6-mongo-01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-common-int-rmq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-zk03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-zk03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-dep-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-dep-os01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pghist01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os011p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os012p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-common-nf-r001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os013p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os014p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os015p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os016p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os017p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-infra-mon006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-gw001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-pdp-mock-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-infra-bi-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:28 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-lb002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-lb001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-es002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-es001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:29 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:31:40 | INFO | Создано 663 новых записей.
+2026-03-31 18:43:22 | INFO | ============================================================
+2026-03-31 18:43:22 | INFO | Начало синхронизации: 2026-03-31 18:43:22
+2026-03-31 18:43:22 | INFO | ============================================================
+2026-03-31 18:43:26 | INFO | Найдено данных для 482 хостов.
+2026-03-31 18:43:26 | INFO | Нет изменений для обновления.
+2026-03-31 18:43:26 | INFO | ============================================================
+2026-03-31 18:43:26 | INFO | Начало расчета ёмкости сетей: 2026-03-31 18:43:26
+2026-03-31 18:43:26 | INFO | ============================================================
+2026-03-31 18:43:26 | INFO | Получено 577 строк из таблицы.
+2026-03-31 18:43:26 | INFO | Найдено 23 подсетей.
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=10, cluster_IP=5, свободно=45
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-03-31 18:43:26 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-03-31 18:43:26 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-03-31 18:43:26 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-03-31 18:43:26 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-03-31 18:43:26 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-03-31 18:43:26 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 18:43:26 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-03-31 18:43:26 | INFO | 
+Планируется обновление 577 строк.
+2026-03-31 18:43:26 | INFO | Начинается обновление...
+2026-03-31 18:45:16 | INFO | 
+Всего обновлено: 577 строк.
+2026-03-31 18:45:16 | INFO | ============================================================
+2026-03-31 18:45:16 | INFO | Завершено: 2026-03-31 18:45:16
+2026-03-31 18:45:16 | INFO | ============================================================
+2026-03-31 18:45:16 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-03-31 18:45:18 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-03-31 18:45:18 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 10.95, LA5/Ядра: 0.91
+2026-03-31 18:45:18 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 52.72, LA5/Ядра: 2.03
+2026-03-31 18:45:18 | INFO | Загрузка в SeaTable...
+2026-03-31 18:45:19 | INFO | Удаление 2 существующих строк...
+2026-03-31 18:45:19 | INFO | Добавление 2 серверов...
+2026-03-31 18:45:19 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 10.95
+2026-03-31 18:45:19 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 52.72
+2026-03-31 18:45:19 | INFO | Успешно загружено 2 серверов.
+2026-03-31 18:45:19 | INFO | Сбор данных по заполненности дисков...
+2026-03-31 18:45:21 | INFO | Найдено дисков с высокой заполненностью: 25
+2026-03-31 18:45:21 | INFO | Загрузка в SeaTable...
+2026-03-31 18:45:21 | INFO | Удаление 25 существующих строк...
+2026-03-31 18:45:21 | INFO | Все старые строки удалены.
+2026-03-31 18:45:21 | INFO | Добавление 25 новых строк...
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 88%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 90%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:22 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 82%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 84%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 80%
+2026-03-31 18:45:23 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 18:45:24 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-03-31 18:45:24 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-03-31 18:45:24 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:24 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 18:45:24 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 93%
+2026-03-31 18:45:24 | INFO | 
+Загружено 25 строк.
+2026-03-31 18:45:24 | INFO | ============================================================
+2026-03-31 18:45:24 | INFO | Начало синхронизации версий ПО: 2026-03-31 18:45:24
+2026-03-31 18:45:24 | INFO | ============================================================
+2026-03-31 18:45:24 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 18:45:31 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 18:45:31 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 18:45:31 | INFO |   Apache_ignite: 6 записей
+2026-03-31 18:45:31 | INFO |   Clickhouse: 5 записей
+2026-03-31 18:45:31 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 18:45:31 | INFO |   Consul: 61 записей
+2026-03-31 18:45:31 | INFO |   Docker: 152 записей
+2026-03-31 18:45:31 | INFO |   ETCD: 21 записей
+2026-03-31 18:45:31 | INFO |   Elasticsearch: 29 записей
+2026-03-31 18:45:31 | INFO |   Jenkins: 4 записей
+2026-03-31 18:45:31 | INFO |   Kafka: 7 записей
+2026-03-31 18:45:31 | INFO |   Keepalived: 66 записей
+2026-03-31 18:45:31 | INFO |   Kibana: 4 записей
+2026-03-31 18:45:31 | INFO |   Logstash: 6 записей
+2026-03-31 18:45:31 | INFO |   Mongodb: 3 записей
+2026-03-31 18:45:31 | INFO |   Nginx: 37 записей
+2026-03-31 18:45:31 | INFO |   Nifi: 36 записей
+2026-03-31 18:45:31 | INFO |   Opensearch: 35 записей
+2026-03-31 18:45:31 | INFO |   PostgreSQL: 41 записей
+2026-03-31 18:45:31 | INFO |   RabbitMQ: 26 записей
+2026-03-31 18:45:31 | INFO |   Redis: 12 записей
+2026-03-31 18:45:31 | INFO |   Tomcat: 22 записей
+2026-03-31 18:45:31 | INFO |   Zk: 31 записей
+2026-03-31 18:45:31 | INFO |   vmagent: 14 записей
+2026-03-31 18:45:31 | INFO | Найдено 735 существующих записей в таблице
+2026-03-31 18:45:31 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 18:45:31 | INFO | ============================================================
+2026-03-31 18:45:31 | INFO | Начало синхронизации версий ПО: 2026-03-31 18:45:31
+2026-03-31 18:45:31 | INFO | ============================================================
+2026-03-31 18:45:31 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-03-31 18:45:31 | INFO | Сбор данных из 9 источников
+2026-03-31 18:45:38 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-03-31 18:45:38 | INFO | Всего уникальных записей ПО: 1747
+2026-03-31 18:45:38 | INFO |   cadvisor_version_info: 47 записей
+2026-03-31 18:45:38 | INFO |   consulmdm_version: 459 записей
+2026-03-31 18:45:38 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-03-31 18:45:38 | INFO |   filebeat_version: 291 записей
+2026-03-31 18:45:38 | INFO |   node_exporter_build_info: 482 записей
+2026-03-31 18:45:38 | INFO |   ntp_build_info: 289 записей
+2026-03-31 18:45:38 | INFO |   postgres_exporter_build_info: 47 записей
+2026-03-31 18:45:38 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-03-31 18:45:38 | INFO |   redis_exporter_build_info: 12 записей
+2026-03-31 18:45:38 | INFO |   vm_app_version: 14 записей
+2026-03-31 18:45:38 | INFO | Найдено 1000 существующих записей в таблице
+2026-03-31 18:45:38 | INFO | 
+Найдено 796 новых записей для создания:
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:45:38 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 18:45:38 | INFO |   ... и еще 786 записей
+2026-03-31 18:45:38 | INFO | 
+Начинается создание новых записей...
+2026-03-31 18:46:26 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:26 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:26 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud5-pg01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os007p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os009p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os010p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:27 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:28 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf02p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf03p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-dep-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-dep-os01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pghist01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os011p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os012p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os013p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os014p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os015p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os016p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os017p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:30 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-03-31 18:46:54 | INFO | Создано 749 новых записей.
+2026-03-31 19:20:24 | INFO | ============================================================
+2026-03-31 19:20:24 | INFO | Начало синхронизации: 2026-03-31 19:20:24
+2026-03-31 19:20:24 | INFO | ============================================================
+2026-03-31 19:20:28 | INFO | Найдено данных для 482 хостов.
+2026-03-31 19:20:28 | INFO | Нет изменений для обновления.
+2026-03-31 19:20:28 | INFO | ============================================================
+2026-03-31 19:20:28 | INFO | Начало расчета ёмкости сетей: 2026-03-31 19:20:28
+2026-03-31 19:20:28 | INFO | ============================================================
+2026-03-31 19:20:28 | INFO | Получено 577 строк из таблицы.
+2026-03-31 19:20:28 | INFO | Найдено 23 подсетей.
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=10, cluster_IP=5, свободно=45
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-03-31 19:20:28 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-03-31 19:20:28 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-03-31 19:20:28 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-03-31 19:20:28 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-03-31 19:20:28 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-03-31 19:20:28 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 19:20:28 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-03-31 19:20:28 | INFO | 
+Планируется обновление 577 строк.
+2026-03-31 19:20:28 | INFO | Начинается обновление...
+2026-03-31 19:22:24 | INFO | 
+Всего обновлено: 577 строк.
+2026-03-31 19:22:24 | INFO | ============================================================
+2026-03-31 19:22:24 | INFO | Завершено: 2026-03-31 19:22:24
+2026-03-31 19:22:24 | INFO | ============================================================
+2026-03-31 19:22:24 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-03-31 19:22:26 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-03-31 19:22:26 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 10.94, LA5/Ядра: 0.91
+2026-03-31 19:22:26 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 52.75, LA5/Ядра: 2.03
+2026-03-31 19:22:26 | INFO | Загрузка в SeaTable...
+2026-03-31 19:22:27 | INFO | Удаление 2 существующих строк...
+2026-03-31 19:22:27 | INFO | Добавление 2 серверов...
+2026-03-31 19:22:27 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 10.94
+2026-03-31 19:22:27 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 52.75
+2026-03-31 19:22:27 | INFO | Успешно загружено 2 серверов.
+2026-03-31 19:22:27 | INFO | Сбор данных по заполненности дисков...
+2026-03-31 19:22:29 | INFO | Найдено дисков с высокой заполненностью: 25
+2026-03-31 19:22:29 | INFO | Загрузка в SeaTable...
+2026-03-31 19:22:29 | INFO | Удаление 25 существующих строк...
+2026-03-31 19:22:30 | INFO | Все старые строки удалены.
+2026-03-31 19:22:30 | INFO | Добавление 25 новых строк...
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 88%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 19:22:30 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 90%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 83%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:31 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 80%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:32 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:22:32 | INFO | 
+Загружено 25 строк.
+2026-03-31 19:22:32 | INFO | ============================================================
+2026-03-31 19:22:32 | INFO | Начало синхронизации версий ПО: 2026-03-31 19:22:32
+2026-03-31 19:22:32 | INFO | ============================================================
+2026-03-31 19:22:33 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 19:22:40 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 19:22:40 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 19:22:40 | INFO |   Apache_ignite: 6 записей
+2026-03-31 19:22:40 | INFO |   Clickhouse: 5 записей
+2026-03-31 19:22:40 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 19:22:40 | INFO |   Consul: 61 записей
+2026-03-31 19:22:40 | INFO |   Docker: 152 записей
+2026-03-31 19:22:40 | INFO |   ETCD: 21 записей
+2026-03-31 19:22:40 | INFO |   Elasticsearch: 29 записей
+2026-03-31 19:22:40 | INFO |   Jenkins: 4 записей
+2026-03-31 19:22:40 | INFO |   Kafka: 7 записей
+2026-03-31 19:22:40 | INFO |   Keepalived: 66 записей
+2026-03-31 19:22:40 | INFO |   Kibana: 4 записей
+2026-03-31 19:22:40 | INFO |   Logstash: 6 записей
+2026-03-31 19:22:40 | INFO |   Mongodb: 3 записей
+2026-03-31 19:22:40 | INFO |   Nginx: 37 записей
+2026-03-31 19:22:40 | INFO |   Nifi: 36 записей
+2026-03-31 19:22:40 | INFO |   Opensearch: 35 записей
+2026-03-31 19:22:40 | INFO |   PostgreSQL: 41 записей
+2026-03-31 19:22:40 | INFO |   RabbitMQ: 26 записей
+2026-03-31 19:22:40 | INFO |   Redis: 12 записей
+2026-03-31 19:22:40 | INFO |   Tomcat: 22 записей
+2026-03-31 19:22:40 | INFO |   Zk: 31 записей
+2026-03-31 19:22:40 | INFO |   vmagent: 14 записей
+2026-03-31 19:22:40 | INFO | Найдено 735 существующих записей в таблице
+2026-03-31 19:22:40 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 19:22:40 | INFO | ============================================================
+2026-03-31 19:22:40 | INFO | Начало экспорта версий ПО: 2026-03-31 19:22:40
+2026-03-31 19:22:40 | INFO | ============================================================
+2026-03-31 19:22:48 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 19:22:48 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 19:22:48 | INFO |   Apache_ignite: 6 записей
+2026-03-31 19:22:48 | INFO |   Clickhouse: 5 записей
+2026-03-31 19:22:48 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 19:22:48 | INFO |   Consul: 61 записей
+2026-03-31 19:22:48 | INFO |   Docker: 152 записей
+2026-03-31 19:22:48 | INFO |   ETCD: 21 записей
+2026-03-31 19:22:48 | INFO |   Elasticsearch: 29 записей
+2026-03-31 19:22:48 | INFO |   Jenkins: 4 записей
+2026-03-31 19:22:48 | INFO |   Kafka: 7 записей
+2026-03-31 19:22:48 | INFO |   Keepalived: 66 записей
+2026-03-31 19:22:48 | INFO |   Kibana: 4 записей
+2026-03-31 19:22:48 | INFO |   Logstash: 6 записей
+2026-03-31 19:22:48 | INFO |   Mongodb: 3 записей
+2026-03-31 19:22:48 | INFO |   Nginx: 37 записей
+2026-03-31 19:22:48 | INFO |   Nifi: 36 записей
+2026-03-31 19:22:48 | INFO |   Opensearch: 35 записей
+2026-03-31 19:22:48 | INFO |   PostgreSQL: 41 записей
+2026-03-31 19:22:48 | INFO |   RabbitMQ: 26 записей
+2026-03-31 19:22:48 | INFO |   Redis: 12 записей
+2026-03-31 19:22:48 | INFO |   Tomcat: 22 записей
+2026-03-31 19:22:48 | INFO |   Zk: 31 записей
+2026-03-31 19:22:48 | INFO |   vmagent: 14 записей
+2026-03-31 19:22:48 | INFO | Данные успешно сохранены в software_versions.csv
+2026-03-31 19:22:48 | INFO | Всего сохранено записей: 632
+2026-03-31 19:22:48 | INFO | 
+Пример сохраненных данных (первые 10 записей):
+2026-03-31 19:22:48 | INFO |   1. Хост: mdm01-common-in-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:22:48 | INFO |   2. Хост: mdm01-common-int-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:22:48 | INFO |   3. Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:22:48 | INFO |   4. Хост: mdm01-infra-elk01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:22:48 | INFO |   5. Хост: mdm01-infra-elk01t, Контур: test, ПО: Logstash, Версия: 8.9.0
+2026-03-31 19:22:48 | INFO |   6. Хост: mdm01-infra-elk01t, Контур: test, ПО: Opensearch, Версия: 2.16.0
+2026-03-31 19:22:48 | INFO |   7. Хост: mdm01-kad-asur2-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:22:48 | INFO |   8. Хост: mdm01-kpd-kkd-app01t, Контур: test, ПО: Docker, Версия: 26.1.5-ce
+2026-03-31 19:22:48 | INFO |   9. Хост: mdm01-kpd-registry-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:22:48 | INFO |   10. Хост: mdm01-kri-db01t, Контур: test, ПО: Docker, Версия: 1.13.1
+2026-03-31 19:22:48 | INFO |   ... и еще 622 записей
+2026-03-31 19:22:48 | INFO | 
+Экспорт завершен. Файл сохранен: software_versions.csv
+2026-03-31 19:22:48 | INFO | ============================================================
+2026-03-31 19:22:48 | INFO | Начало синхронизации информации о ПО и версиях: 2026-03-31 19:22:48
+2026-03-31 19:22:48 | INFO | ============================================================
+2026-03-31 19:22:48 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 19:22:48 | INFO | Найдено 522 хостов с информацией о ПО
+2026-03-31 19:22:48 | INFO | Загружено 577 строк из таблицы 'Серверы'
+2026-03-31 19:22:48 | INFO | Найдено 577 серверов в таблице 'Серверы'
+2026-03-31 19:22:48 | INFO | 
+Нет серверов для обновления
+2026-03-31 19:22:48 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 19:22:48 | INFO | ============================================================
+2026-03-31 19:22:48 | INFO | Начало синхронизации версий прикладного ПО: 2026-03-31 19:22:48
+2026-03-31 19:22:48 | INFO | ============================================================
+2026-03-31 19:22:49 | INFO | Загружено 707 строк из таблицы 'Версии ППО'
+2026-03-31 19:22:49 | INFO | Сбор данных о версиях ПО...
+2026-03-31 19:22:55 | INFO | Получено 704 уникальных записей
+2026-03-31 19:22:55 | INFO | Найдено 707 существующих записей в таблице
+2026-03-31 19:22:55 | INFO | 
+Найдено 162 записей для обновления:
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: kkd-ksrd-gateway-service
+2026-03-31 19:22:55 | INFO |     Версия: 1.16.3 -> 1.16.5
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm
+2026-03-31 19:22:55 | INFO |     Версия: 3.4.0 -> 3.4.2
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-emias-notification-service
+2026-03-31 19:22:55 | INFO |     Версия: 1.3.0 -> 1.3.1
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: mdm-search
+2026-03-31 19:22:55 | INFO |     Версия: 3.3.0 -> 1.0.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: msp-mdm-public-api-service
+2026-03-31 19:22:55 | INFO |     Версия: 1.13.0 -> 1.13.1
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: isp-config-service
+2026-03-31 19:22:55 | INFO |     Версия: 3.8.1 -> 3.9.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: isp-gate-service
+2026-03-31 19:22:55 | INFO |     Версия: 5.7.0 -> 5.9.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: isp-system-service
+2026-03-31 19:22:55 | INFO |     Версия: 5.6.0 -> 5.7.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: mdm
+2026-03-31 19:22:55 | INFO |     Версия: 3.4.0 -> 3.4.2
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: mdm-converter
+2026-03-31 19:22:55 | INFO |     Версия: 4.9.0 -> 4.10.0
+2026-03-31 19:22:55 | INFO |   ... и еще 152 записей
+2026-03-31 19:22:55 | INFO | 
+Найдено 5 новых записей для создания:
+2026-03-31 19:22:55 | INFO |   Хост: mdm01-kri-links-app01t, Контур: test, Подсистема: kri_links, ПО: isp-router-service, Версия: 1.0.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm30-kri-main-app01s, Контур: stage, Подсистема: kri, ПО: isp-router-service, Версия: 1.0.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm30-kri-main-app02s, Контур: stage, Подсистема: kri, ПО: isp-router-service, Версия: 1.0.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm30-kri-main-app03s, Контур: stage, Подсистема: kri, ПО: isp-router-service, Версия: 1.0.0
+2026-03-31 19:22:55 | INFO |   Хост: mdm30-kri-links-app01s, Контур: stage, Подсистема: kri_links, ПО: isp-router-service, Версия: 1.0.0
+2026-03-31 19:22:55 | INFO | 
+Начинается обновление существующих записей...
+2026-03-31 19:23:32 | INFO | Обновлено 162 записей.
+2026-03-31 19:23:32 | INFO | 
+Начинается создание новых записей...
+2026-03-31 19:23:32 | INFO | Создано 5 новых записей.
+2026-03-31 19:30:20 | INFO | ============================================================
+2026-03-31 19:30:20 | INFO | Начало синхронизации: 2026-03-31 19:30:20
+2026-03-31 19:30:20 | INFO | ============================================================
+2026-03-31 19:30:25 | INFO | Найдено данных для 482 хостов.
+2026-03-31 19:30:25 | INFO | Нет изменений для обновления.
+2026-03-31 19:30:25 | INFO | ============================================================
+2026-03-31 19:30:25 | INFO | Начало расчета ёмкости сетей: 2026-03-31 19:30:25
+2026-03-31 19:30:25 | INFO | ============================================================
+2026-03-31 19:30:25 | INFO | Получено 577 строк из таблицы.
+2026-03-31 19:30:25 | INFO | Найдено 23 подсетей.
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=10, cluster_IP=5, свободно=45
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-03-31 19:30:25 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-03-31 19:30:25 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-03-31 19:30:25 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-03-31 19:30:25 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-03-31 19:30:25 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-03-31 19:30:25 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-03-31 19:30:25 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-03-31 19:30:25 | INFO | 
+Планируется обновление 577 строк.
+2026-03-31 19:30:25 | INFO | Начинается обновление...
+2026-03-31 19:32:20 | INFO | 
+Всего обновлено: 577 строк.
+2026-03-31 19:32:20 | INFO | ============================================================
+2026-03-31 19:32:20 | INFO | Завершено: 2026-03-31 19:32:20
+2026-03-31 19:32:20 | INFO | ============================================================
+2026-03-31 19:32:20 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-03-31 19:32:23 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-03-31 19:32:23 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 10.93, LA5/Ядра: 0.91
+2026-03-31 19:32:23 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 52.78, LA5/Ядра: 2.03
+2026-03-31 19:32:23 | INFO | Загрузка в SeaTable...
+2026-03-31 19:32:23 | INFO | Удаление 2 существующих строк...
+2026-03-31 19:32:23 | INFO | Добавление 2 серверов...
+2026-03-31 19:32:23 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 10.93
+2026-03-31 19:32:23 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 52.78
+2026-03-31 19:32:23 | INFO | Успешно загружено 2 серверов.
+2026-03-31 19:32:23 | INFO | Сбор данных по заполненности дисков...
+2026-03-31 19:32:25 | INFO | Найдено дисков с высокой заполненностью: 25
+2026-03-31 19:32:25 | INFO | Загрузка в SeaTable...
+2026-03-31 19:32:26 | INFO | Удаление 25 существующих строк...
+2026-03-31 19:32:26 | INFO | Все старые строки удалены.
+2026-03-31 19:32:26 | INFO | Добавление 25 новых строк...
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 88%
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-03-31 19:32:26 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 90%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 83%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 83%
+2026-03-31 19:32:27 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 80%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:28 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-03-31 19:32:28 | INFO | 
+Загружено 25 строк.
+2026-03-31 19:32:28 | INFO | ============================================================
+2026-03-31 19:32:28 | INFO | Начало синхронизации версий ПО: 2026-03-31 19:32:28
+2026-03-31 19:32:28 | INFO | ============================================================
+2026-03-31 19:32:29 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 19:32:36 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 19:32:36 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 19:32:36 | INFO |   Apache_ignite: 6 записей
+2026-03-31 19:32:36 | INFO |   Clickhouse: 5 записей
+2026-03-31 19:32:36 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 19:32:36 | INFO |   Consul: 61 записей
+2026-03-31 19:32:36 | INFO |   Docker: 152 записей
+2026-03-31 19:32:36 | INFO |   ETCD: 21 записей
+2026-03-31 19:32:36 | INFO |   Elasticsearch: 29 записей
+2026-03-31 19:32:36 | INFO |   Jenkins: 4 записей
+2026-03-31 19:32:36 | INFO |   Kafka: 7 записей
+2026-03-31 19:32:36 | INFO |   Keepalived: 66 записей
+2026-03-31 19:32:36 | INFO |   Kibana: 4 записей
+2026-03-31 19:32:36 | INFO |   Logstash: 6 записей
+2026-03-31 19:32:36 | INFO |   Mongodb: 3 записей
+2026-03-31 19:32:36 | INFO |   Nginx: 37 записей
+2026-03-31 19:32:36 | INFO |   Nifi: 36 записей
+2026-03-31 19:32:36 | INFO |   Opensearch: 35 записей
+2026-03-31 19:32:36 | INFO |   PostgreSQL: 41 записей
+2026-03-31 19:32:36 | INFO |   RabbitMQ: 26 записей
+2026-03-31 19:32:36 | INFO |   Redis: 12 записей
+2026-03-31 19:32:36 | INFO |   Tomcat: 22 записей
+2026-03-31 19:32:36 | INFO |   Zk: 31 записей
+2026-03-31 19:32:36 | INFO |   vmagent: 14 записей
+2026-03-31 19:32:36 | INFO | Найдено 735 существующих записей в таблице
+2026-03-31 19:32:36 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 19:32:36 | INFO | ============================================================
+2026-03-31 19:32:36 | INFO | Начало синхронизации версий ПО: 2026-03-31 19:32:36
+2026-03-31 19:32:36 | INFO | ============================================================
+2026-03-31 19:32:36 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-03-31 19:32:36 | INFO | Сбор данных из 9 источников
+2026-03-31 19:32:45 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-03-31 19:32:45 | INFO | Всего уникальных записей ПО: 1747
+2026-03-31 19:32:45 | INFO |   cadvisor_version_info: 47 записей
+2026-03-31 19:32:45 | INFO |   consulmdm_version: 459 записей
+2026-03-31 19:32:45 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-03-31 19:32:45 | INFO |   filebeat_version: 291 записей
+2026-03-31 19:32:45 | INFO |   node_exporter_build_info: 482 записей
+2026-03-31 19:32:45 | INFO |   ntp_build_info: 289 записей
+2026-03-31 19:32:45 | INFO |   postgres_exporter_build_info: 47 записей
+2026-03-31 19:32:45 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-03-31 19:32:45 | INFO |   redis_exporter_build_info: 12 записей
+2026-03-31 19:32:45 | INFO |   vm_app_version: 14 записей
+2026-03-31 19:32:45 | INFO | Найдено 1000 существующих записей в таблице
+2026-03-31 19:32:45 | INFO | 
+Найдено 796 новых записей для создания:
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 19:32:45 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-03-31 19:32:45 | INFO |   ... и еще 786 записей
+2026-03-31 19:32:45 | INFO | 
+Начинается создание новых записей...
+2026-03-31 19:34:03 | INFO | Создано 796 новых записей.
+2026-03-31 19:34:03 | INFO | 
+Синхронизация завершена. Всего обработано: 796 записей.
+2026-03-31 19:34:03 | INFO |   - Обновлено: 0
+2026-03-31 19:34:03 | INFO |   - Создано: 796
+2026-03-31 19:34:03 | INFO | ============================================================
+2026-03-31 19:34:03 | INFO | Начало экспорта версий ПО: 2026-03-31 19:34:03
+2026-03-31 19:34:03 | INFO | ============================================================
+2026-03-31 19:34:10 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-03-31 19:34:10 | INFO | Всего уникальных записей ПО: 632
+2026-03-31 19:34:10 | INFO |   Apache_ignite: 6 записей
+2026-03-31 19:34:10 | INFO |   Clickhouse: 5 записей
+2026-03-31 19:34:10 | INFO |   Clickhouse_keeper: 14 записей
+2026-03-31 19:34:10 | INFO |   Consul: 61 записей
+2026-03-31 19:34:10 | INFO |   Docker: 152 записей
+2026-03-31 19:34:10 | INFO |   ETCD: 21 записей
+2026-03-31 19:34:10 | INFO |   Elasticsearch: 29 записей
+2026-03-31 19:34:10 | INFO |   Jenkins: 4 записей
+2026-03-31 19:34:10 | INFO |   Kafka: 7 записей
+2026-03-31 19:34:10 | INFO |   Keepalived: 66 записей
+2026-03-31 19:34:10 | INFO |   Kibana: 4 записей
+2026-03-31 19:34:10 | INFO |   Logstash: 6 записей
+2026-03-31 19:34:10 | INFO |   Mongodb: 3 записей
+2026-03-31 19:34:10 | INFO |   Nginx: 37 записей
+2026-03-31 19:34:10 | INFO |   Nifi: 36 записей
+2026-03-31 19:34:10 | INFO |   Opensearch: 35 записей
+2026-03-31 19:34:10 | INFO |   PostgreSQL: 41 записей
+2026-03-31 19:34:10 | INFO |   RabbitMQ: 26 записей
+2026-03-31 19:34:10 | INFO |   Redis: 12 записей
+2026-03-31 19:34:10 | INFO |   Tomcat: 22 записей
+2026-03-31 19:34:10 | INFO |   Zk: 31 записей
+2026-03-31 19:34:10 | INFO |   vmagent: 14 записей
+2026-03-31 19:34:10 | INFO | Данные успешно сохранены в software_versions.csv
+2026-03-31 19:34:10 | INFO | Всего сохранено записей: 632
+2026-03-31 19:34:10 | INFO | 
+Пример сохраненных данных (первые 10 записей):
+2026-03-31 19:34:10 | INFO |   1. Хост: mdm01-common-in-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:34:10 | INFO |   2. Хост: mdm01-common-int-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:34:10 | INFO |   3. Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-03-31 19:34:10 | INFO |   4. Хост: mdm01-infra-elk01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:34:10 | INFO |   5. Хост: mdm01-infra-elk01t, Контур: test, ПО: Logstash, Версия: 8.9.0
+2026-03-31 19:34:10 | INFO |   6. Хост: mdm01-infra-elk01t, Контур: test, ПО: Opensearch, Версия: 2.16.0
+2026-03-31 19:34:10 | INFO |   7. Хост: mdm01-kad-asur2-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:34:10 | INFO |   8. Хост: mdm01-kpd-kkd-app01t, Контур: test, ПО: Docker, Версия: 26.1.5-ce
+2026-03-31 19:34:10 | INFO |   9. Хост: mdm01-kpd-registry-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-03-31 19:34:10 | INFO |   10. Хост: mdm01-kri-db01t, Контур: test, ПО: Docker, Версия: 1.13.1
+2026-03-31 19:34:10 | INFO |   ... и еще 622 записей
+2026-03-31 19:34:10 | INFO | 
+Экспорт завершен. Файл сохранен: software_versions.csv
+2026-03-31 19:34:10 | INFO | ============================================================
+2026-03-31 19:34:10 | INFO | Начало синхронизации информации о ПО и версиях: 2026-03-31 19:34:10
+2026-03-31 19:34:10 | INFO | ============================================================
+2026-03-31 19:34:10 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-03-31 19:34:10 | INFO | Найдено 522 хостов с информацией о ПО
+2026-03-31 19:34:10 | INFO | Загружено 577 строк из таблицы 'Серверы'
+2026-03-31 19:34:10 | INFO | Найдено 577 серверов в таблице 'Серверы'
+2026-03-31 19:34:10 | INFO | 
+Нет серверов для обновления
+2026-03-31 19:34:10 | INFO | 
+Нет изменений для синхронизации.
+2026-03-31 19:34:10 | INFO | ============================================================
+2026-03-31 19:34:10 | INFO | Начало синхронизации версий прикладного ПО: 2026-03-31 19:34:10
+2026-03-31 19:34:10 | INFO | ============================================================
+2026-03-31 19:34:11 | INFO | Загружено 712 строк из таблицы 'Версии ППО'
+2026-03-31 19:34:11 | INFO | Сбор данных о версиях ПО...
+2026-03-31 19:34:16 | INFO | Получено 704 уникальных записей
+2026-03-31 19:34:16 | INFO | Найдено 712 существующих записей в таблице
+2026-03-31 19:34:16 | INFO | 
+Нет изменений для синхронизации.
+2026-04-01 11:55:36 | INFO | ============================================================
+2026-04-01 11:55:36 | INFO | Начало синхронизации: 2026-04-01 11:55:36
+2026-04-01 11:55:36 | INFO | ============================================================
+2026-04-01 11:55:40 | INFO | Найдено данных для 482 хостов.
+2026-04-01 11:55:40 | INFO | 
+Планируется обновление 1 строк:
+2026-04-01 11:55:40 | INFO |   Хост: mdm30-tech-test003s | CPU: 4 -> 8; RAM: 44 -> 52
+2026-04-01 11:55:40 | INFO | Начинается обновление...
+2026-04-01 11:55:40 | INFO | 
+Всего обновлено: 1 строк.
+2026-04-01 11:55:40 | INFO | ============================================================
+2026-04-01 11:55:40 | INFO | Начало расчета ёмкости сетей: 2026-04-01 11:55:40
+2026-04-01 11:55:40 | INFO | ============================================================
+2026-04-01 11:55:40 | INFO | Получено 569 строк из таблицы.
+2026-04-01 11:55:40 | INFO | Найдено 23 подсетей.
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=2, cluster_IP=0, свободно=58
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-04-01 11:55:40 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-04-01 11:55:40 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-04-01 11:55:40 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-04-01 11:55:40 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-04-01 11:55:40 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-04-01 11:55:40 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-01 11:55:40 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-04-01 11:55:40 | INFO | 
+Планируется обновление 569 строк.
+2026-04-01 11:55:40 | INFO | Начинается обновление...
+2026-04-01 11:57:30 | INFO | 
+Всего обновлено: 569 строк.
+2026-04-01 11:57:30 | INFO | ============================================================
+2026-04-01 11:57:30 | INFO | Завершено: 2026-04-01 11:57:30
+2026-04-01 11:57:30 | INFO | ============================================================
+2026-04-01 11:57:30 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-04-01 11:57:32 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-04-01 11:57:32 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 11.1, LA5/Ядра: 0.93
+2026-04-01 11:57:32 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 54.28, LA5/Ядра: 2.09
+2026-04-01 11:57:32 | INFO | Загрузка в SeaTable...
+2026-04-01 11:57:32 | INFO | Удаление 2 существующих строк...
+2026-04-01 11:57:32 | INFO | Добавление 2 серверов...
+2026-04-01 11:57:33 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 11.1
+2026-04-01 11:57:33 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 54.28
+2026-04-01 11:57:33 | INFO | Успешно загружено 2 серверов.
+2026-04-01 11:57:33 | INFO | Сбор данных по заполненности дисков...
+2026-04-01 11:57:34 | INFO | Найдено дисков с высокой заполненностью: 26
+2026-04-01 11:57:34 | INFO | Загрузка в SeaTable...
+2026-04-01 11:57:34 | INFO | Удаление 25 существующих строк...
+2026-04-01 11:57:34 | INFO | Все старые строки удалены.
+2026-04-01 11:57:34 | INFO | Добавление 26 новых строк...
+2026-04-01 11:57:34 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-04-01 11:57:34 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 91%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 92%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:35 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 84%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-infra-elk-os005p — prod_dc15 — /dev/mapper/vg_data-lv_data — 82%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 83%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 80%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-01 11:57:36 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-04-01 11:57:37 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-04-01 11:57:37 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:37 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:37 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-01 11:57:37 | INFO | 
+Загружено 26 строк.
+2026-04-01 11:57:37 | INFO | ============================================================
+2026-04-01 11:57:37 | INFO | Начало синхронизации версий ПО: 2026-04-01 11:57:37
+2026-04-01 11:57:37 | INFO | ============================================================
+2026-04-01 11:57:37 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-01 11:57:42 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-01 11:57:42 | INFO | Всего уникальных записей ПО: 632
+2026-04-01 11:57:42 | INFO |   Apache_ignite: 6 записей
+2026-04-01 11:57:42 | INFO |   Clickhouse: 5 записей
+2026-04-01 11:57:42 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-01 11:57:42 | INFO |   Consul: 61 записей
+2026-04-01 11:57:42 | INFO |   Docker: 152 записей
+2026-04-01 11:57:42 | INFO |   ETCD: 21 записей
+2026-04-01 11:57:42 | INFO |   Elasticsearch: 29 записей
+2026-04-01 11:57:42 | INFO |   Jenkins: 4 записей
+2026-04-01 11:57:42 | INFO |   Kafka: 7 записей
+2026-04-01 11:57:42 | INFO |   Keepalived: 66 записей
+2026-04-01 11:57:42 | INFO |   Kibana: 4 записей
+2026-04-01 11:57:42 | INFO |   Logstash: 6 записей
+2026-04-01 11:57:42 | INFO |   Mongodb: 3 записей
+2026-04-01 11:57:42 | INFO |   Nginx: 37 записей
+2026-04-01 11:57:42 | INFO |   Nifi: 36 записей
+2026-04-01 11:57:42 | INFO |   Opensearch: 35 записей
+2026-04-01 11:57:42 | INFO |   PostgreSQL: 41 записей
+2026-04-01 11:57:42 | INFO |   RabbitMQ: 26 записей
+2026-04-01 11:57:42 | INFO |   Redis: 12 записей
+2026-04-01 11:57:42 | INFO |   Tomcat: 22 записей
+2026-04-01 11:57:42 | INFO |   Zk: 31 записей
+2026-04-01 11:57:42 | INFO |   vmagent: 14 записей
+2026-04-01 11:57:42 | INFO | Найдено 735 существующих записей в таблице
+2026-04-01 11:57:42 | INFO | 
+Нет изменений для синхронизации.
+2026-04-01 11:57:42 | INFO | ============================================================
+2026-04-01 11:57:42 | INFO | Начало синхронизации версий ПО: 2026-04-01 11:57:42
+2026-04-01 11:57:42 | INFO | ============================================================
+2026-04-01 11:57:43 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-04-01 11:57:43 | INFO | Сбор данных из 9 источников
+2026-04-01 11:57:48 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-04-01 11:57:48 | INFO | Всего уникальных записей ПО: 1747
+2026-04-01 11:57:48 | INFO |   cadvisor_version_info: 47 записей
+2026-04-01 11:57:48 | INFO |   consulmdm_version: 459 записей
+2026-04-01 11:57:48 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-04-01 11:57:48 | INFO |   filebeat_version: 291 записей
+2026-04-01 11:57:48 | INFO |   node_exporter_build_info: 482 записей
+2026-04-01 11:57:48 | INFO |   ntp_build_info: 289 записей
+2026-04-01 11:57:48 | INFO |   postgres_exporter_build_info: 47 записей
+2026-04-01 11:57:48 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-04-01 11:57:48 | INFO |   redis_exporter_build_info: 12 записей
+2026-04-01 11:57:48 | INFO |   vm_app_version: 14 записей
+2026-04-01 11:57:48 | INFO | Найдено 1000 существующих записей в таблице
+2026-04-01 11:57:48 | INFO | 
+Найдено 796 новых записей для создания:
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-01 11:57:48 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-01 11:57:48 | INFO |   ... и еще 786 записей
+2026-04-01 11:57:48 | INFO | 
+Начинается создание новых записей...
+2026-04-01 11:59:06 | INFO | Создано 796 новых записей.
+2026-04-01 11:59:06 | INFO | 
+Синхронизация завершена. Всего обработано: 796 записей.
+2026-04-01 11:59:06 | INFO |   - Обновлено: 0
+2026-04-01 11:59:06 | INFO |   - Создано: 796
+2026-04-01 11:59:06 | INFO | ============================================================
+2026-04-01 11:59:07 | INFO | Начало экспорта версий ПО: 2026-04-01 11:59:07
+2026-04-01 11:59:07 | INFO | ============================================================
+2026-04-01 11:59:12 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-01 11:59:12 | INFO | Всего уникальных записей ПО: 632
+2026-04-01 11:59:12 | INFO |   Apache_ignite: 6 записей
+2026-04-01 11:59:12 | INFO |   Clickhouse: 5 записей
+2026-04-01 11:59:12 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-01 11:59:12 | INFO |   Consul: 61 записей
+2026-04-01 11:59:12 | INFO |   Docker: 152 записей
+2026-04-01 11:59:12 | INFO |   ETCD: 21 записей
+2026-04-01 11:59:12 | INFO |   Elasticsearch: 29 записей
+2026-04-01 11:59:12 | INFO |   Jenkins: 4 записей
+2026-04-01 11:59:12 | INFO |   Kafka: 7 записей
+2026-04-01 11:59:12 | INFO |   Keepalived: 66 записей
+2026-04-01 11:59:12 | INFO |   Kibana: 4 записей
+2026-04-01 11:59:12 | INFO |   Logstash: 6 записей
+2026-04-01 11:59:12 | INFO |   Mongodb: 3 записей
+2026-04-01 11:59:12 | INFO |   Nginx: 37 записей
+2026-04-01 11:59:12 | INFO |   Nifi: 36 записей
+2026-04-01 11:59:12 | INFO |   Opensearch: 35 записей
+2026-04-01 11:59:12 | INFO |   PostgreSQL: 41 записей
+2026-04-01 11:59:12 | INFO |   RabbitMQ: 26 записей
+2026-04-01 11:59:12 | INFO |   Redis: 12 записей
+2026-04-01 11:59:12 | INFO |   Tomcat: 22 записей
+2026-04-01 11:59:12 | INFO |   Zk: 31 записей
+2026-04-01 11:59:12 | INFO |   vmagent: 14 записей
+2026-04-01 11:59:12 | INFO | Данные успешно сохранены в software_versions.csv
+2026-04-01 11:59:12 | INFO | Всего сохранено записей: 632
+2026-04-01 11:59:12 | INFO | 
+Пример сохраненных данных (первые 10 записей):
+2026-04-01 11:59:12 | INFO |   1. Хост: mdm01-common-in-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-01 11:59:12 | INFO |   2. Хост: mdm01-common-int-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-01 11:59:12 | INFO |   3. Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-01 11:59:12 | INFO |   4. Хост: mdm01-infra-elk01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-01 11:59:12 | INFO |   5. Хост: mdm01-infra-elk01t, Контур: test, ПО: Logstash, Версия: 8.9.0
+2026-04-01 11:59:12 | INFO |   6. Хост: mdm01-infra-elk01t, Контур: test, ПО: Opensearch, Версия: 2.16.0
+2026-04-01 11:59:12 | INFO |   7. Хост: mdm01-kad-asur2-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-01 11:59:12 | INFO |   8. Хост: mdm01-kpd-kkd-app01t, Контур: test, ПО: Docker, Версия: 26.1.5-ce
+2026-04-01 11:59:12 | INFO |   9. Хост: mdm01-kpd-registry-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-01 11:59:12 | INFO |   10. Хост: mdm01-kri-db01t, Контур: test, ПО: Docker, Версия: 1.13.1
+2026-04-01 11:59:12 | INFO |   ... и еще 622 записей
+2026-04-01 11:59:12 | INFO | 
+Экспорт завершен. Файл сохранен: software_versions.csv
+2026-04-01 11:59:12 | INFO | ============================================================
+2026-04-01 11:59:12 | INFO | Начало синхронизации информации о ПО и версиях: 2026-04-01 11:59:12
+2026-04-01 11:59:12 | INFO | ============================================================
+2026-04-01 11:59:13 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-01 11:59:13 | INFO | Найдено 522 хостов с информацией о ПО
+2026-04-01 11:59:13 | INFO | Загружено 569 строк из таблицы 'Серверы'
+2026-04-01 11:59:13 | INFO | Найдено 569 серверов в таблице 'Серверы'
+2026-04-01 11:59:13 | INFO | 
+Нет серверов для обновления
+2026-04-01 11:59:13 | INFO | 
+Нет изменений для синхронизации.
+2026-04-01 11:59:13 | INFO | ============================================================
+2026-04-01 11:59:13 | INFO | Начало синхронизации версий прикладного ПО: 2026-04-01 11:59:13
+2026-04-01 11:59:13 | INFO | ============================================================
+2026-04-01 11:59:13 | INFO | Загружено 712 строк из таблицы 'Версии ППО'
+2026-04-01 11:59:13 | INFO | Сбор данных о версиях ПО...
+2026-04-01 11:59:18 | INFO | Получено 704 уникальных записей
+2026-04-01 11:59:18 | INFO | Найдено 712 существующих записей в таблице
+2026-04-01 11:59:18 | INFO | 
+Найдено 4 записей для обновления:
+2026-04-01 11:59:18 | INFO |   Хост: mdm30-tp-web-app001p, Подсистема: tech_portal, ПО: mdmtp-core
+2026-04-01 11:59:18 | INFO |     Версия: 2026/02/26=001 -> 2026/03/12=003
+2026-04-01 11:59:18 | INFO |   Хост: mdm30-tp-gw-pdp001p, Подсистема: tech_portal, ПО: mdmtp-gateway-emp
+2026-04-01 11:59:18 | INFO |     Версия: 2025/08/06=001 -> 2026/03/19=001
+2026-04-01 11:59:18 | INFO |   Хост: mdm30-tp-gw-pdp001p, Подсистема: tech_portal, ПО: mdmtp-gateway-mdm-validation
+2026-04-01 11:59:18 | INFO |     Версия: 2026/02/12=001 -> 2026/03/04=002
+2026-04-01 11:59:18 | INFO |   Хост: mdm30-tp-gw-pdp001p, Подсистема: tech_portal, ПО: mdmtp-gateway-resend-pdp
+2026-04-01 11:59:18 | INFO |     Версия: 2025/06/30=002 -> 2025/08/06=001
+2026-04-01 11:59:18 | INFO | 
+Начинается обновление существующих записей...
+2026-04-01 11:59:18 | INFO | Обновлено 4 записей.
+2026-04-01 11:59:18 | INFO | 
+Синхронизация завершена. Всего обработано: 4 записей.
+2026-04-01 11:59:18 | INFO |   - Обновлено: 4
+2026-04-01 11:59:18 | INFO |   - Создано: 0
+2026-04-02 13:32:22 | INFO | ============================================================
+2026-04-02 13:32:22 | INFO | Начало синхронизации: 2026-04-02 13:32:22
+2026-04-02 13:32:22 | INFO | ============================================================
+2026-04-02 13:32:26 | INFO | Найдено данных для 482 хостов.
+2026-04-02 13:32:26 | INFO | 
+Планируется обновление 6 строк:
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-grexv02p | CPU: 4 -> 8; RAM: 16 -> 28
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-grexv01p | RAM: 16 -> 28
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-merge01p | RAM: 12 -> 16
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-merge02p | CPU: 2 -> 4; RAM: 12 -> 16
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-tpm01p | RAM: 18 -> 22
+2026-04-02 13:32:26 | INFO |   Хост: mdm30t-tpm02p | RAM: 18 -> 22
+2026-04-02 13:32:26 | INFO | Начинается обновление...
+2026-04-02 13:32:27 | INFO | 
+Всего обновлено: 6 строк.
+2026-04-02 13:32:27 | INFO | ============================================================
+2026-04-02 13:32:27 | INFO | Начало расчета ёмкости сетей: 2026-04-02 13:32:27
+2026-04-02 13:32:27 | INFO | ============================================================
+2026-04-02 13:32:28 | INFO | Получено 569 строк из таблицы.
+2026-04-02 13:32:28 | INFO | Найдено 23 подсетей.
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=2, cluster_IP=0, свободно=58
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-04-02 13:32:28 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-04-02 13:32:28 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-04-02 13:32:28 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-04-02 13:32:28 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-04-02 13:32:28 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-04-02 13:32:28 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-02 13:32:28 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-04-02 13:32:28 | INFO | 
+Планируется обновление 569 строк.
+2026-04-02 13:32:28 | INFO | Начинается обновление...
+2026-04-02 13:34:31 | INFO | 
+Всего обновлено: 569 строк.
+2026-04-02 13:34:31 | INFO | ============================================================
+2026-04-02 13:34:31 | INFO | Завершено: 2026-04-02 13:34:31
+2026-04-02 13:34:31 | INFO | ============================================================
+2026-04-02 13:34:31 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-04-02 13:34:35 | INFO | Найдено серверов с высокой нагрузкой: 2
+2026-04-02 13:34:35 | INFO |   → mdm30-ksrd-ud-os017p (prod_dc15) — 12 ядер, LA5: 10.93, LA5/Ядра: 0.91
+2026-04-02 13:34:35 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 55.31, LA5/Ядра: 2.13
+2026-04-02 13:34:35 | INFO | Загрузка в SeaTable...
+2026-04-02 13:34:35 | INFO | Удаление 2 существующих строк...
+2026-04-02 13:34:35 | INFO | Добавление 2 серверов...
+2026-04-02 13:34:35 | INFO | Добавлен: mdm30-ksrd-ud-os017p — 12 ядер, LA5: 10.93
+2026-04-02 13:34:35 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 55.31
+2026-04-02 13:34:35 | INFO | Успешно загружено 2 серверов.
+2026-04-02 13:34:35 | INFO | Сбор данных по заполненности дисков...
+2026-04-02 13:34:37 | INFO | Найдено дисков с высокой заполненностью: 26
+2026-04-02 13:34:37 | INFO | Загрузка в SeaTable...
+2026-04-02 13:34:37 | INFO | Удаление 26 существующих строк...
+2026-04-02 13:34:38 | INFO | Все старые строки удалены.
+2026-04-02 13:34:38 | INFO | Добавление 26 новых строк...
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 96%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 74%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:38 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 93%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 88%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-infra-elk-os005p — prod_dc15 — /dev/mapper/vg_data-lv_data — 90%
+2026-04-02 13:34:39 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 83%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 81%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:40 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-02 13:34:40 | INFO | 
+Загружено 26 строк.
+2026-04-02 13:34:40 | INFO | ============================================================
+2026-04-02 13:34:40 | INFO | Начало синхронизации версий ПО: 2026-04-02 13:34:40
+2026-04-02 13:34:40 | INFO | ============================================================
+2026-04-02 13:34:41 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-02 13:34:47 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-02 13:34:47 | INFO | Всего уникальных записей ПО: 632
+2026-04-02 13:34:47 | INFO |   Apache_ignite: 6 записей
+2026-04-02 13:34:47 | INFO |   Clickhouse: 5 записей
+2026-04-02 13:34:47 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-02 13:34:47 | INFO |   Consul: 61 записей
+2026-04-02 13:34:47 | INFO |   Docker: 152 записей
+2026-04-02 13:34:47 | INFO |   ETCD: 21 записей
+2026-04-02 13:34:47 | INFO |   Elasticsearch: 29 записей
+2026-04-02 13:34:47 | INFO |   Jenkins: 4 записей
+2026-04-02 13:34:47 | INFO |   Kafka: 7 записей
+2026-04-02 13:34:47 | INFO |   Keepalived: 66 записей
+2026-04-02 13:34:47 | INFO |   Kibana: 4 записей
+2026-04-02 13:34:47 | INFO |   Logstash: 6 записей
+2026-04-02 13:34:47 | INFO |   Mongodb: 3 записей
+2026-04-02 13:34:47 | INFO |   Nginx: 37 записей
+2026-04-02 13:34:47 | INFO |   Nifi: 36 записей
+2026-04-02 13:34:47 | INFO |   Opensearch: 35 записей
+2026-04-02 13:34:47 | INFO |   PostgreSQL: 41 записей
+2026-04-02 13:34:47 | INFO |   RabbitMQ: 26 записей
+2026-04-02 13:34:47 | INFO |   Redis: 12 записей
+2026-04-02 13:34:47 | INFO |   Tomcat: 22 записей
+2026-04-02 13:34:47 | INFO |   Zk: 31 записей
+2026-04-02 13:34:47 | INFO |   vmagent: 14 записей
+2026-04-02 13:34:47 | INFO | Найдено 735 существующих записей в таблице
+2026-04-02 13:34:47 | INFO | 
+Нет изменений для синхронизации.
+2026-04-02 13:34:47 | INFO | ============================================================
+2026-04-02 13:34:47 | INFO | Начало синхронизации версий ПО: 2026-04-02 13:34:47
+2026-04-02 13:34:47 | INFO | ============================================================
+2026-04-02 13:34:47 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-04-02 13:34:47 | INFO | Сбор данных из 9 источников
+2026-04-02 13:34:54 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-04-02 13:34:54 | INFO | Всего уникальных записей ПО: 1747
+2026-04-02 13:34:54 | INFO |   cadvisor_version_info: 47 записей
+2026-04-02 13:34:54 | INFO |   consulmdm_version: 459 записей
+2026-04-02 13:34:54 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-04-02 13:34:54 | INFO |   filebeat_version: 291 записей
+2026-04-02 13:34:54 | INFO |   node_exporter_build_info: 482 записей
+2026-04-02 13:34:54 | INFO |   ntp_build_info: 289 записей
+2026-04-02 13:34:54 | INFO |   postgres_exporter_build_info: 47 записей
+2026-04-02 13:34:54 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-04-02 13:34:54 | INFO |   redis_exporter_build_info: 12 записей
+2026-04-02 13:34:54 | INFO |   vm_app_version: 14 записей
+2026-04-02 13:34:54 | INFO | Найдено 1000 существующих записей в таблице
+2026-04-02 13:34:54 | INFO | 
+Найдено 796 новых записей для создания:
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-02 13:34:54 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-02 13:34:54 | INFO |   ... и еще 786 записей
+2026-04-02 13:34:54 | INFO | 
+Начинается создание новых записей...
+2026-04-02 13:36:21 | INFO | Создано 796 новых записей.
+2026-04-02 13:36:21 | INFO | 
+Синхронизация завершена. Всего обработано: 796 записей.
+2026-04-02 13:36:21 | INFO |   - Обновлено: 0
+2026-04-02 13:36:21 | INFO |   - Создано: 796
+2026-04-02 13:36:21 | INFO | ============================================================
+2026-04-02 13:36:21 | INFO | Начало экспорта версий ПО: 2026-04-02 13:36:21
+2026-04-02 13:36:21 | INFO | ============================================================
+2026-04-02 13:36:28 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-02 13:36:28 | INFO | Всего уникальных записей ПО: 632
+2026-04-02 13:36:28 | INFO |   Apache_ignite: 6 записей
+2026-04-02 13:36:28 | INFO |   Clickhouse: 5 записей
+2026-04-02 13:36:28 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-02 13:36:28 | INFO |   Consul: 61 записей
+2026-04-02 13:36:28 | INFO |   Docker: 152 записей
+2026-04-02 13:36:28 | INFO |   ETCD: 21 записей
+2026-04-02 13:36:28 | INFO |   Elasticsearch: 29 записей
+2026-04-02 13:36:28 | INFO |   Jenkins: 4 записей
+2026-04-02 13:36:28 | INFO |   Kafka: 7 записей
+2026-04-02 13:36:28 | INFO |   Keepalived: 66 записей
+2026-04-02 13:36:28 | INFO |   Kibana: 4 записей
+2026-04-02 13:36:28 | INFO |   Logstash: 6 записей
+2026-04-02 13:36:28 | INFO |   Mongodb: 3 записей
+2026-04-02 13:36:28 | INFO |   Nginx: 37 записей
+2026-04-02 13:36:28 | INFO |   Nifi: 36 записей
+2026-04-02 13:36:28 | INFO |   Opensearch: 35 записей
+2026-04-02 13:36:28 | INFO |   PostgreSQL: 41 записей
+2026-04-02 13:36:28 | INFO |   RabbitMQ: 26 записей
+2026-04-02 13:36:28 | INFO |   Redis: 12 записей
+2026-04-02 13:36:28 | INFO |   Tomcat: 22 записей
+2026-04-02 13:36:28 | INFO |   Zk: 31 записей
+2026-04-02 13:36:28 | INFO |   vmagent: 14 записей
+2026-04-02 13:36:28 | INFO | Данные успешно сохранены в software_versions.csv
+2026-04-02 13:36:28 | INFO | Всего сохранено записей: 632
+2026-04-02 13:36:28 | INFO | 
+Пример сохраненных данных (первые 10 записей):
+2026-04-02 13:36:28 | INFO |   1. Хост: mdm01-common-in-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-02 13:36:28 | INFO |   2. Хост: mdm01-common-int-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-02 13:36:28 | INFO |   3. Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-02 13:36:28 | INFO |   4. Хост: mdm01-infra-elk01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-02 13:36:28 | INFO |   5. Хост: mdm01-infra-elk01t, Контур: test, ПО: Logstash, Версия: 8.9.0
+2026-04-02 13:36:28 | INFO |   6. Хост: mdm01-infra-elk01t, Контур: test, ПО: Opensearch, Версия: 2.16.0
+2026-04-02 13:36:28 | INFO |   7. Хост: mdm01-kad-asur2-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-02 13:36:28 | INFO |   8. Хост: mdm01-kpd-kkd-app01t, Контур: test, ПО: Docker, Версия: 26.1.5-ce
+2026-04-02 13:36:28 | INFO |   9. Хост: mdm01-kpd-registry-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-02 13:36:28 | INFO |   10. Хост: mdm01-kri-db01t, Контур: test, ПО: Docker, Версия: 1.13.1
+2026-04-02 13:36:28 | INFO |   ... и еще 622 записей
+2026-04-02 13:36:28 | INFO | 
+Экспорт завершен. Файл сохранен: software_versions.csv
+2026-04-02 13:36:28 | INFO | ============================================================
+2026-04-02 13:36:28 | INFO | Начало синхронизации информации о ПО и версиях: 2026-04-02 13:36:28
+2026-04-02 13:36:28 | INFO | ============================================================
+2026-04-02 13:36:28 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-02 13:36:28 | INFO | Найдено 522 хостов с информацией о ПО
+2026-04-02 13:36:28 | INFO | Загружено 569 строк из таблицы 'Серверы'
+2026-04-02 13:36:28 | INFO | Найдено 569 серверов в таблице 'Серверы'
+2026-04-02 13:36:28 | INFO | 
+Нет серверов для обновления
+2026-04-02 13:36:28 | INFO | 
+Нет изменений для синхронизации.
+2026-04-02 13:36:28 | INFO | ============================================================
+2026-04-02 13:36:28 | INFO | Начало синхронизации версий прикладного ПО: 2026-04-02 13:36:28
+2026-04-02 13:36:28 | INFO | ============================================================
+2026-04-02 13:36:28 | INFO | Загружено 712 строк из таблицы 'Версии ППО'
+2026-04-02 13:36:28 | INFO | Сбор данных о версиях ПО...
+2026-04-02 13:36:33 | INFO | Получено 704 уникальных записей
+2026-04-02 13:36:33 | INFO | Найдено 712 существующих записей в таблице
+2026-04-02 13:36:33 | INFO | 
+Найдено 6 записей для обновления:
+2026-04-02 13:36:33 | INFO |   Хост: mdm01-kri-main-app01t, Подсистема: kri, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO |   Хост: mdm01-kri-links-app01t, Подсистема: kri_links, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO |   Хост: mdm30-kri-main-app01s, Подсистема: kri, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO |   Хост: mdm30-kri-main-app02s, Подсистема: kri, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO |   Хост: mdm30-kri-main-app03s, Подсистема: kri, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO |   Хост: mdm30-kri-links-app01s, Подсистема: kri_links, ПО: isp-gate-service
+2026-04-02 13:36:33 | INFO |     Версия: 5.9.0 -> 5.9.3
+2026-04-02 13:36:33 | INFO | 
+Начинается обновление существующих записей...
+2026-04-02 13:36:35 | INFO | Обновлено 6 записей.
+2026-04-02 13:36:35 | INFO | 
+Синхронизация завершена. Всего обработано: 6 записей.
+2026-04-02 13:36:35 | INFO |   - Обновлено: 6
+2026-04-02 13:36:35 | INFO |   - Создано: 0
+2026-04-03 12:39:20 | INFO | ============================================================
+2026-04-03 12:39:20 | INFO | Начало синхронизации: 2026-04-03 12:39:20
+2026-04-03 12:39:20 | INFO | ============================================================
+2026-04-03 12:39:25 | INFO | Найдено данных для 482 хостов.
+2026-04-03 12:39:25 | INFO | Нет изменений для обновления.
+2026-04-03 12:39:25 | INFO | ============================================================
+2026-04-03 12:39:25 | INFO | Начало расчета ёмкости сетей: 2026-04-03 12:39:25
+2026-04-03 12:39:25 | INFO | ============================================================
+2026-04-03 12:39:25 | INFO | Получено 569 строк из таблицы.
+2026-04-03 12:39:25 | INFO | Найдено 23 подсетей.
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.126.0/25: ёмкость=128, VM=114, cluster_IP=30, свободно=0
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.203.0/25: ёмкость=128, VM=118, cluster_IP=10, свободно=0
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.53.0/25: ёмкость=128, VM=55, cluster_IP=19, свободно=50
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.52.192/27: ёмкость=32, VM=10, cluster_IP=5, свободно=13
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.44.112/28: ёмкость=16, VM=4, cluster_IP=0, свободно=8
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.44.104/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.53.128/26: ёмкость=64, VM=56, cluster_IP=2, свободно=2
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.52.224/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.53.192/26: ёмкость=64, VM=2, cluster_IP=0, свободно=58
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.52.0/29: ёмкость=8, VM=1, cluster_IP=0, свободно=3
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.121.128/25: ёмкость=128, VM=3, cluster_IP=2, свободно=119
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.39.128/25: ёмкость=128, VM=62, cluster_IP=0, свободно=62
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.193.0/25: ёмкость=128, VM=16, cluster_IP=0, свободно=108
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.200.128/25: ёмкость=128, VM=18, cluster_IP=6, свободно=100
+2026-04-03 12:39:25 | INFO | Подсеть 10.6.176.64/26: ёмкость=64, VM=14, cluster_IP=0, свободно=46
+2026-04-03 12:39:25 | INFO | Подсеть 10.207.130.0/24: ёмкость=256, VM=6, cluster_IP=2, свободно=244
+2026-04-03 12:39:25 | INFO | Подсеть 10.207.9.96/27: ёмкость=32, VM=17, cluster_IP=0, свободно=11
+2026-04-03 12:39:25 | INFO | Подсеть 10.207.42.128/26: ёмкость=64, VM=11, cluster_IP=0, свободно=49
+2026-04-03 12:39:25 | INFO | Подсеть 10.207.214.128/25: ёмкость=128, VM=15, cluster_IP=2, свободно=107
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.11.32/28: ёмкость=16, VM=5, cluster_IP=0, свободно=7
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.11.16/28: ёмкость=16, VM=8, cluster_IP=0, свободно=4
+2026-04-03 12:39:25 | INFO | Подсеть 10.15.11.48/28: ёмкость=16, VM=1, cluster_IP=0, свободно=11
+2026-04-03 12:39:25 | INFO | Подсеть 10.207.131.64/26: ёмкость=64, VM=31, cluster_IP=0, свободно=29
+2026-04-03 12:39:25 | INFO | 
+Планируется обновление 569 строк.
+2026-04-03 12:39:25 | INFO | Начинается обновление...
+2026-04-03 12:41:18 | INFO | 
+Всего обновлено: 569 строк.
+2026-04-03 12:41:18 | INFO | ============================================================
+2026-04-03 12:41:18 | INFO | Завершено: 2026-04-03 12:41:18
+2026-04-03 12:41:18 | INFO | ============================================================
+2026-04-03 12:41:18 | INFO | Сбор данных по среднему LA5 за 7 дней...
+2026-04-03 12:41:22 | INFO | Найдено серверов с высокой нагрузкой: 1
+2026-04-03 12:41:22 | INFO |   → mdm30-ksrd-ud-pg001p (prod_dc15) — 26 ядер, LA5: 51.11, LA5/Ядра: 1.97
+2026-04-03 12:41:22 | INFO | Загрузка в SeaTable...
+2026-04-03 12:41:22 | INFO | Удаление 2 существующих строк...
+2026-04-03 12:41:22 | INFO | Добавление 1 серверов...
+2026-04-03 12:41:22 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — 26 ядер, LA5: 51.11
+2026-04-03 12:41:22 | INFO | Успешно загружено 1 серверов.
+2026-04-03 12:41:22 | INFO | Сбор данных по заполненности дисков...
+2026-04-03 12:41:24 | INFO | Найдено дисков с высокой заполненностью: 26
+2026-04-03 12:41:24 | INFO | Загрузка в SeaTable...
+2026-04-03 12:41:24 | INFO | Удаление 26 существующих строк...
+2026-04-03 12:41:25 | INFO | Все старые строки удалены.
+2026-04-03 12:41:25 | INFO | Добавление 26 новых строк...
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30a-db01t — stage — /dev/mapper/vg1-data — 85%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30t-log11p — prod — /dev/mapper/vg_data-lv_data — 83%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30a-db01p — prod — /dev/mapper/vg_data-lv_data — 75%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30a-db01p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30a-db02p — prod — /dev/mapper/vg_data-lv_data — 76%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30a-db02p — prod — 172.24.245.26:/dc5_d107_mdm_nfs_03 — 99%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30-elk-es04p — prod — /dev/mapper/vg_data-lv_data — 91%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30-elk-es01p — prod — /dev/mapper/vg_data-lv_data — 89%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30-elk-es02p — prod — /dev/mapper/vg_data-lv_data — 93%
+2026-04-03 12:41:25 | INFO | Добавлен: mdm30-elk-es03p — prod — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-elk-es05p — prod — /dev/mapper/vg_data-lv_data — 93%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — /dev/mapper/vg_data-lv_data — 96%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud5-pg01p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-infra-elk-os006p — prod_dc15 — /dev/mapper/vg_data-lv_data — 93%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-infra-elk-os007p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-infra-elk-os005p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 84%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — /dev/mapper/vg_wal-lv_wal — 0%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud-pg001p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-03 12:41:26 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 81%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-ksrd-ud-pg002p — prod_dc15 — 10.206.15.26:/dc15_d108_mdm_nfs_26 — 100%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-infra-bi-pg001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 85%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-infra-elk-os001p — prod_dc15 — /dev/mapper/vg_data-lv_data — 95%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-infra-elk-os002p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-infra-elk-os003p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:27 | INFO | Добавлен: mdm30-infra-elk-os004p — prod_dc15 — /dev/mapper/vg_data-lv_data — 94%
+2026-04-03 12:41:27 | INFO | 
+Загружено 26 строк.
+2026-04-03 12:41:27 | INFO | ============================================================
+2026-04-03 12:41:27 | INFO | Начало синхронизации версий ПО: 2026-04-03 12:41:27
+2026-04-03 12:41:27 | INFO | ============================================================
+2026-04-03 12:41:27 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-03 12:41:35 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-03 12:41:35 | INFO | Всего уникальных записей ПО: 632
+2026-04-03 12:41:35 | INFO |   Apache_ignite: 6 записей
+2026-04-03 12:41:35 | INFO |   Clickhouse: 5 записей
+2026-04-03 12:41:35 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-03 12:41:35 | INFO |   Consul: 61 записей
+2026-04-03 12:41:35 | INFO |   Docker: 152 записей
+2026-04-03 12:41:35 | INFO |   ETCD: 21 записей
+2026-04-03 12:41:35 | INFO |   Elasticsearch: 29 записей
+2026-04-03 12:41:35 | INFO |   Jenkins: 4 записей
+2026-04-03 12:41:35 | INFO |   Kafka: 7 записей
+2026-04-03 12:41:35 | INFO |   Keepalived: 66 записей
+2026-04-03 12:41:35 | INFO |   Kibana: 4 записей
+2026-04-03 12:41:35 | INFO |   Logstash: 6 записей
+2026-04-03 12:41:35 | INFO |   Mongodb: 3 записей
+2026-04-03 12:41:35 | INFO |   Nginx: 37 записей
+2026-04-03 12:41:35 | INFO |   Nifi: 36 записей
+2026-04-03 12:41:35 | INFO |   Opensearch: 35 записей
+2026-04-03 12:41:35 | INFO |   PostgreSQL: 41 записей
+2026-04-03 12:41:35 | INFO |   RabbitMQ: 26 записей
+2026-04-03 12:41:35 | INFO |   Redis: 12 записей
+2026-04-03 12:41:35 | INFO |   Tomcat: 22 записей
+2026-04-03 12:41:35 | INFO |   Zk: 31 записей
+2026-04-03 12:41:35 | INFO |   vmagent: 14 записей
+2026-04-03 12:41:35 | INFO | Найдено 735 существующих записей в таблице
+2026-04-03 12:41:35 | INFO | 
+Нет изменений для синхронизации.
+2026-04-03 12:41:35 | INFO | ============================================================
+2026-04-03 12:41:35 | INFO | Начало синхронизации версий ПО: 2026-04-03 12:41:35
+2026-04-03 12:41:35 | INFO | ============================================================
+2026-04-03 12:41:35 | INFO | Загружено 1000 строк из таблицы 'Версии служебного ПО'
+2026-04-03 12:41:35 | INFO | Сбор данных из 9 источников
+2026-04-03 12:41:43 | INFO | Получено данных о версиях ПО для 482 хостов
+2026-04-03 12:41:43 | INFO | Всего уникальных записей ПО: 1747
+2026-04-03 12:41:43 | INFO |   cadvisor_version_info: 47 записей
+2026-04-03 12:41:43 | INFO |   consulmdm_version: 459 записей
+2026-04-03 12:41:43 | INFO |   elasticsearch_exporter_build_info: 77 записей
+2026-04-03 12:41:43 | INFO |   filebeat_version: 291 записей
+2026-04-03 12:41:43 | INFO |   node_exporter_build_info: 482 записей
+2026-04-03 12:41:43 | INFO |   ntp_build_info: 289 записей
+2026-04-03 12:41:43 | INFO |   postgres_exporter_build_info: 47 записей
+2026-04-03 12:41:43 | INFO |   rabbitmq_exporter_build_info: 29 записей
+2026-04-03 12:41:43 | INFO |   redis_exporter_build_info: 12 записей
+2026-04-03 12:41:43 | INFO |   vm_app_version: 14 записей
+2026-04-03 12:41:43 | INFO | Найдено 1000 существующих записей в таблице
+2026-04-03 12:41:43 | INFO | 
+Найдено 796 новых записей для создания:
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-kri-main-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-kri-links-db01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-common-in-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-common-int-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-ksrd-ud-mongo01t, Контур: test, ПО: consulmdm_version, Версия: v1.20.5
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-kri-main-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-kri-main-os02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-kri-links-os01t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-03 12:41:43 | INFO |   Хост: mdm01-tp-gateway-all02t, Контур: test, ПО: filebeat_version, Версия: 7.16.2
+2026-04-03 12:41:43 | INFO |   ... и еще 786 записей
+2026-04-03 12:41:43 | INFO | 
+Начинается создание новых записей...
+2026-04-03 12:42:28 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:28 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud5-pg01p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os007p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os009p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-common-in-rmq003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-os010p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:29 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-pg002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app004p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app005p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-ud-app006p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf002p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-etl-nf003p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:30 | ERROR | Ошибка при создании записи для хоста mdm30-ksrd-mok-nf001p: [Errno 429] {"error_message": "too many requests"}
+
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-gw001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-pdp-mock-app001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kad-nsud-pg002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-infra-bi-pg001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq003p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-rmq001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:44 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-pg001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-lb002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-lb001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-es002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-es001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app003p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-links-app001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es004p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es003p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:45 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-es001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-pg002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-infra-elk-kafka003p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-pg001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app003p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app002p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-kri-main-app001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-tp-web-app001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-tp-gw-pdp001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-tp-main-consl001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:46 | ERROR | Ошибка при создании записи для хоста mdm30-tp-web-pg001p: [Errno 429] Too many requests, please try again later.
+2026-04-03 12:42:55 | INFO | Создано 738 новых записей.
+2026-04-03 12:42:55 | INFO | 
+Синхронизация завершена. Всего обработано: 796 записей.
+2026-04-03 12:42:55 | INFO |   - Обновлено: 0
+2026-04-03 12:42:55 | INFO |   - Создано: 796
+2026-04-03 12:42:55 | INFO | ============================================================
+2026-04-03 12:42:55 | INFO | Начало экспорта версий ПО: 2026-04-03 12:42:55
+2026-04-03 12:42:55 | INFO | ============================================================
+2026-04-03 12:43:01 | INFO | Получено данных о версиях ПО для 423 хостов
+2026-04-03 12:43:01 | INFO | Всего уникальных записей ПО: 632
+2026-04-03 12:43:01 | INFO |   Apache_ignite: 6 записей
+2026-04-03 12:43:01 | INFO |   Clickhouse: 5 записей
+2026-04-03 12:43:01 | INFO |   Clickhouse_keeper: 14 записей
+2026-04-03 12:43:01 | INFO |   Consul: 61 записей
+2026-04-03 12:43:01 | INFO |   Docker: 152 записей
+2026-04-03 12:43:01 | INFO |   ETCD: 21 записей
+2026-04-03 12:43:01 | INFO |   Elasticsearch: 29 записей
+2026-04-03 12:43:01 | INFO |   Jenkins: 4 записей
+2026-04-03 12:43:01 | INFO |   Kafka: 7 записей
+2026-04-03 12:43:01 | INFO |   Keepalived: 66 записей
+2026-04-03 12:43:01 | INFO |   Kibana: 4 записей
+2026-04-03 12:43:01 | INFO |   Logstash: 6 записей
+2026-04-03 12:43:01 | INFO |   Mongodb: 3 записей
+2026-04-03 12:43:01 | INFO |   Nginx: 37 записей
+2026-04-03 12:43:01 | INFO |   Nifi: 36 записей
+2026-04-03 12:43:01 | INFO |   Opensearch: 35 записей
+2026-04-03 12:43:01 | INFO |   PostgreSQL: 41 записей
+2026-04-03 12:43:01 | INFO |   RabbitMQ: 26 записей
+2026-04-03 12:43:01 | INFO |   Redis: 12 записей
+2026-04-03 12:43:01 | INFO |   Tomcat: 22 записей
+2026-04-03 12:43:01 | INFO |   Zk: 31 записей
+2026-04-03 12:43:01 | INFO |   vmagent: 14 записей
+2026-04-03 12:43:01 | INFO | Данные успешно сохранены в software_versions.csv
+2026-04-03 12:43:01 | INFO | Всего сохранено записей: 632
+2026-04-03 12:43:01 | INFO | 
+Пример сохраненных данных (первые 10 записей):
+2026-04-03 12:43:01 | INFO |   1. Хост: mdm01-common-in-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-03 12:43:01 | INFO |   2. Хост: mdm01-common-int-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-03 12:43:01 | INFO |   3. Хост: mdm01-common-kriint-rmq01t, Контур: test, ПО: RabbitMQ, Версия: 4.1.2
+2026-04-03 12:43:01 | INFO |   4. Хост: mdm01-infra-elk01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-03 12:43:01 | INFO |   5. Хост: mdm01-infra-elk01t, Контур: test, ПО: Logstash, Версия: 8.9.0
+2026-04-03 12:43:01 | INFO |   6. Хост: mdm01-infra-elk01t, Контур: test, ПО: Opensearch, Версия: 2.16.0
+2026-04-03 12:43:01 | INFO |   7. Хост: mdm01-kad-asur2-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-03 12:43:01 | INFO |   8. Хост: mdm01-kpd-kkd-app01t, Контур: test, ПО: Docker, Версия: 26.1.5-ce
+2026-04-03 12:43:01 | INFO |   9. Хост: mdm01-kpd-registry-app01t, Контур: test, ПО: Docker, Версия: 29.2.0-ce
+2026-04-03 12:43:01 | INFO |   10. Хост: mdm01-kri-db01t, Контур: test, ПО: Docker, Версия: 1.13.1
+2026-04-03 12:43:01 | INFO |   ... и еще 622 записей
+2026-04-03 12:43:01 | INFO | 
+Экспорт завершен. Файл сохранен: software_versions.csv
+2026-04-03 12:43:01 | INFO | ============================================================
+2026-04-03 12:43:01 | INFO | Начало синхронизации информации о ПО и версиях: 2026-04-03 12:43:01
+2026-04-03 12:43:01 | INFO | ============================================================
+2026-04-03 12:43:01 | INFO | Загружено 786 строк из таблицы 'Версии СПО'
+2026-04-03 12:43:01 | INFO | Найдено 522 хостов с информацией о ПО
+2026-04-03 12:43:02 | INFO | Загружено 569 строк из таблицы 'Серверы'
+2026-04-03 12:43:02 | INFO | Найдено 569 серверов в таблице 'Серверы'
+2026-04-03 12:43:02 | INFO | 
+Нет серверов для обновления
+2026-04-03 12:43:02 | INFO | 
+Нет изменений для синхронизации.
+2026-04-03 12:43:02 | INFO | ============================================================
+2026-04-03 12:43:02 | INFO | Начало синхронизации версий прикладного ПО: 2026-04-03 12:43:02
+2026-04-03 12:43:02 | INFO | ============================================================
+2026-04-03 12:43:02 | INFO | Загружено 712 строк из таблицы 'Версии ППО'
+2026-04-03 12:43:02 | INFO | Сбор данных о версиях ПО...
+2026-04-03 12:43:12 | INFO | Получено 704 уникальных записей
+2026-04-03 12:43:12 | INFO | Найдено 712 существующих записей в таблице
+2026-04-03 12:43:12 | INFO | 
+Найдено 48 записей для обновления:
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: isp-gate-service
+2026-04-03 12:43:12 | INFO |     Версия: 5.8.1 -> 5.9.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-address-enrich-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.6.0 -> 1.7.1
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-converter-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.32.0 -> 1.34.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-history-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.4.0 -> 1.5.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-public-api-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.7.0 -> 1.8.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-reg-address-validation-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.4.1 -> 1.5.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-rltv-pupil-validation-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.1.2 -> 1.2.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-statistics-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.3.0 -> 1.4.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-sudir-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.3.0 -> 1.4.0
+2026-04-03 12:43:12 | INFO |   Хост: mdm30a-pdpapp01p, Подсистема: pdp, ПО: pdp-temp-reg-address-validation-service
+2026-04-03 12:43:12 | INFO |     Версия: 1.4.1 -> 1.5.0
+2026-04-03 12:43:12 | INFO |   ... и еще 38 записей
+2026-04-03 12:43:12 | INFO | 
+Начинается обновление существующих записей...
+2026-04-03 12:43:21 | INFO | Обновлено 48 записей.
+2026-04-03 12:43:21 | INFO | 
+Синхронизация завершена. Всего обработано: 48 записей.
+2026-04-03 12:43:21 | INFO |   - Обновлено: 48
+2026-04-03 12:43:21 | INFO |   - Создано: 0

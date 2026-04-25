@@ -1,0 +1,9 @@
+[project]
+name = "mdm-python-scripts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "seatable-api>=3.1.3",
+]
